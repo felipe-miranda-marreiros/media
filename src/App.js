@@ -1,3 +1,9 @@
+import { UsersList } from './components/UsersList'
+
 export const App = () => {
-  return <div>App</div>
+  return (
+    <div className="container mx-auto">
+      <UsersList />
+    </div>
+  )
 }
