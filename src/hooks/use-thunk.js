@@ -2,14 +2,14 @@ import { useCallback, useState } from 'react'
 import { useDispatch } from 'react-redux'
 
 export const useThunk = (thunk) => {
-  const [isLoading, setIsLoading] = useState()
+  const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState(null)
   const dispatch = useDispatch()
 
   const runThunk = useCallback(
-    (arg) => {
+    (args) => {
       setIsLoading(true)
-      dispatch(thunk(arg))
+      dispatch(thunk(args))
         .unwrap()
         .catch((err) => setError(err))
         .finally(() => setIsLoading(false))
