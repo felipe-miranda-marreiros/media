@@ -1,60 +1,32 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
-    },
-    {
-      "name": "Mrs. Raymond Johnston",
+      "name": "Carlos Bartell",
       "id": 2
     },
     {
-      "name": "Jimmy Cummerata Jr.",
+      "name": "Cesar Rohan",
       "id": 3
     },
     {
-      "name": "Barry Keebler",
+      "name": "Carlos Block",
       "id": 4
     },
     {
-      "name": "Leo Breitenberg",
+      "name": "Clarence Harber",
       "id": 5
     },
     {
-      "name": "Violet Schulist",
+      "name": "Cathy Beier",
       "id": 6
     },
     {
-      "name": "Jimmy Feil",
-      "id": 7
-    },
-    {
-      "name": "Leslie Effertz",
+      "name": "Miss Eileen Wintheiser",
       "id": 8
     },
     {
-      "name": "Bernard Miller",
+      "name": "Ms. Mattie Okuneva",
       "id": 9
-    },
-    {
-      "name": "Miss Corey Waelchi",
-      "id": 10
-    },
-    {
-      "name": "Johnny Sawayn IV",
-      "id": 11
-    },
-    {
-      "name": "Darrin Collins",
-      "id": 12
-    },
-    {
-      "name": "Joann Bosco",
-      "id": 13
-    },
-    {
-      "name": "Jesse Wolff",
-      "id": 14
     }
   ],
   "albums": [],
