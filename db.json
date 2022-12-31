@@ -1,26 +1,10 @@
 {
   "users": [
     {
-      "name": "Henrietta Abernathy",
+      "name": "Mathew Witting",
       "id": 1
     }
   ],
-  "albums": [
-    {
-      "userId": 1,
-      "title": "Unbranded Plastic Cheese",
-      "id": 1
-    },
-    {
-      "userId": 1,
-      "title": "Small Fresh Fish",
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "title": "Gorgeous Bronze Chair",
-      "id": 3
-    }
-  ],
+  "albums": [],
   "photos": []
 }

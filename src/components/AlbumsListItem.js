@@ -2,6 +2,7 @@ import { useRemoveAlbumMutation } from '../store'
 import Button from './Button'
 import { ExpandablePanel } from './ExpandablePanel'
 import { GoTrashcan } from 'react-icons/go'
+import { PhotoList } from './PhotoList'
 
 export const AlbumsListItem = ({ album }) => {
   const [removeAlbum, removeAlbumResult] = useRemoveAlbumMutation()
@@ -25,7 +26,7 @@ export const AlbumsListItem = ({ album }) => {
 
   return (
     <ExpandablePanel key={album.id} header={header}>
-      List of photos
+      <PhotoList album={album} />
     </ExpandablePanel>
   )
 }
