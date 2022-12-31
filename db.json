@@ -1,73 +1,25 @@
 {
   "users": [
     {
-      "name": "Linda Zieme",
+      "name": "Henrietta Abernathy",
       "id": 1
-    },
-    {
-      "name": "Susan Pfannerstill",
-      "id": 2
-    },
-    {
-      "name": "Norma Gutkowski",
-      "id": 3
     }
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 2
-    },
-    {
-      "userId": 2,
-      "title": "Modern Plastic Tuna",
-      "id": 11
-    },
-    {
-      "userId": 2,
-      "title": "Incredible Soft Shirt",
-      "id": 12
-    },
-    {
-      "userId": 2,
-      "title": "Rustic Granite Table",
-      "id": 13
-    },
-    {
-      "userId": 2,
-      "title": "Sleek Granite Tuna",
-      "id": 14
+      "userId": 1,
+      "title": "Unbranded Plastic Cheese",
+      "id": 1
     },
     {
       "userId": 1,
-      "title": "Handmade Fresh Salad",
-      "id": 15
+      "title": "Small Fresh Fish",
+      "id": 2
     },
     {
       "userId": 1,
-      "title": "Licensed Soft Table",
-      "id": 16
-    },
-    {
-      "userId": 2,
-      "title": "Fantastic Frozen Bike",
-      "id": 17
-    },
-    {
-      "userId": 2,
-      "title": "Ergonomic Granite Bike",
-      "id": 18
-    },
-    {
-      "userId": 3,
-      "title": "Incredible Rubber Towels",
-      "id": 19
-    },
-    {
-      "userId": 3,
-      "title": "Incredible Rubber Chicken",
-      "id": 20
+      "title": "Gorgeous Bronze Chair",
+      "id": 3
     }
   ],
   "photos": []
