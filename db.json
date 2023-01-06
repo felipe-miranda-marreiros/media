@@ -1,10 +1,21 @@
 {
   "users": [
     {
-      "name": "Mathew Witting",
+      "name": "Judith Spencer",
       "id": 1
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Bespoke Rubber Cheese",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "Tasty Bronze Ball",
+      "id": 2
+    }
+  ],
   "photos": []
 }

@@ -10,42 +10,12 @@ const usersSlice = createSlice({
     isLoading: false,
     error: null,
   },
-  extraReducers(builder) {
-    builder.addCase(fetchUsers.pending, (state, action) => {
-      state.isLoading = true
-    })
-    builder.addCase(fetchUsers.fulfilled, (state, action) => {
-      state.isLoading = false
-      state.data = action.payload
-    })
-    builder.addCase(fetchUsers.rejected, (state, action) => {
-      state.isLoading = false
-      state.error = action.error
-    })
-    builder.addCase(addUser.pending, (state, action) => {
-      state.isLoading = true
-    })
-    builder.addCase(addUser.fulfilled, (state, action) => {
-      state.isLoading = false
+  reducers: {
+    addData: (state, action) => {
       state.data.push(action.payload)
-    })
-    builder.addCase(addUser.rejected, (state, action) => {
-      state.isLoading = false
-      state.error = action.error
-    })
-    builder.addCase(removeUser.pending, (state, action) => {
-      state.isLoading = true
-    })
-    builder.addCase(removeUser.fulfilled, (state, action) => {
-      state.isLoading = false
-      // action.payload.id vem do removeUser thunk.
-      state.data = state.data.filter((user) => user.id !== action.payload.id)
-    })
-    builder.addCase(removeUser.rejected, (state, action) => {
-      state.isLoading = false
-      state.error = action.error
-    })
+    },
   },
 })
 
+export const { addData } = usersSlice.actions
 export const usersReducer = usersSlice.reducer
